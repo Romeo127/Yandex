@@ -50,3 +50,132 @@ header {
     width: 108px;
     height: 20px;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #F1F1F1;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 48px;
+    margin: 32px 0px;
+    border-radius: 50px;
+}
+
+.image {
+    max-width: 1044px;
+    width: 100%;
+}
+
+h2 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 32px 0px 24px;
+}
+
+h3 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0px 0px 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #121723;
+    height: 142px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    width: 299.65px;
+    height: 22.32px;
+    margin-top: 32px;
+    margin-left: 140px;
+    margin-bottom: 33px;
+}
+
+.footer-links {
+    margin-right: 140px;
+}
+
+.tgf {
+    margin-top: 33.16px;
+    margin-right: 24px;
+    width: 53px;
+    height: 20px;
+}
+
+.vkf {
+    margin-right: 24px;
+    width: 52px;
+    height: 20px;
+}
+
+.ytf {
+    width: 108px;
+    height: 20px;
+}
+
+hr {
+    border: white 1px solid;
+    margin: 0px 131px;
+}
+
+.footer-text {
+    color: #A1A6B4;
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 18px;
+}
