@@ -61,11 +61,14 @@ header {
 
 .card {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #FFF;
     padding: 48px;
     margin: 32px 0px;
     border-radius: 50px;
+    max-width: 1044px;
+    width: 100%;
 }
 
 .image {
@@ -93,7 +96,29 @@ h3 {
     margin: 0px 0px 24px;
 }
 
+.card__info {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
 
+.info__left {
+    flex: 1;
+}
+
+.text {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.info__right {
+    flex: 1;
+    margin: 0px;
+}
 
 
 
