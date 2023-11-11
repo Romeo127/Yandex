@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+img {
+    width: 370px;
+}
+
+header {
+    border-bottom: 1px solid #A1A6B4;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.logo {
+    width: 212.34px;
+    height: 63.24px;
+    margin: 30.18px 0px 16.58px 142.52px;
+}
+
+.header-links {
+    margin-right: 157px;
+}
+
+.tghd {
+    width: 53px;
+    height: 20px;
+    padding-top: 50px;
+    padding-right: 24px;
+}
+
+.vkhd {
+    width: 52px;
+    height: 20px;
+    padding-right: 24px;
+}
+
+.ythd {
+    width: 108px;
+    height: 20px;
+}
+
+.subtitle {
+    font-family: "Anonymous Pro";
+    color: #121723;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 25px 0px 24px 139.5px;
+    background-color: #F1F1F1
+}
+
+body {
+    background-color: #F1F1F1;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.container {
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.text {
+    margin: 32px 24px;
+}
+
+.container__title {
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.container__text {
+    color: #121723;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #121723;
+    height: 142px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    width: 299.65px;
+    height: 22.32px;
+    margin-top: 32px;
+    margin-left: 140px;
+    margin-bottom: 33px;
+}
+
+.footer-links {
+    margin-right: 140px;
+}
+
+.tgf {
+    margin-top: 33.16px;
+    margin-right: 24px;
+    width: 53px;
+    height: 20px;
+}
+
+.vkf {
+    margin-right: 24px;
+    width: 52px;
+    height: 20px;
+}
+
+.ytf {
+    width: 108px;
+    height: 20px;
+}
+
+hr {
+    border: white 1px solid;
+    margin: 0px 131px;
+}
+
+.footer-text {
+    color: #A1A6B4;
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 18px;
+}
